@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>COVID-19 Tracker</title>
+  <meta name="title" content="COVID-19 Tracker">
+  <meta name="description" content="This is a corona html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="199" height="50" alt="Covid-19 home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#prevention" class="navbar-link" data-nav-link>Prevention</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Stats</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#doctors" class="navbar-link" data-nav-link>Doctors</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu"></ion-icon>
+        <ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
+      </button>
+
+      <a href= "#symptoms" class="btn btn-primary">Check your symptoms</a>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" style="background-image: url('./assets/images/hero-bg.jpg')"
+        aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">COVID-19 Tracker</h1>
+
+            <p class="hero-text">
+              Total Confirmed Corona Cases
+            </p>
+
+            <data class="counter" value="960708">697,085,418</data>
+
+            <ul class="hero-list">
+
+              <li class="hero-list-item yellow">
+                Active cases <span class="span">21,220,940</span>
+              </li>
+
+              <li class="hero-list-item green">
+                Recovered cases <span class="span">668,932,056</span>
+              </li>
+
+              <li class="hero-list-item red">
+                Deaths <span class="span">6,932,422</span>
+              </li>
+
+            </ul>
+
+            <a href="https://www.worldometers.info/coronavirus/" target="_blank" class="btn btn-primary">COVID - Coronavirus Statistics
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="570" height="562" alt="corona virus" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-labelledby="about-label-1">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner-1.png" width="540" height="540" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="about-subtitle" id="about-label-1">How COVID-19 is Spread</p>
+
+            <h2 class="h2 section-title">How Contagion is Coronavirus</h2>
+
+            <p class="section-text text">
+              You are most infectious (or contagious) in the first 5 days after your symptoms start. You can also spread COVID-19 in the 48 hours before your symptoms start.
+               If you never have symptoms, consider yourself most infectious in the 5 days after you test positive
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-1-1.jpg" width="80" height="80" loading="lazy" alt="Human Contact">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Close Contact</h3>
+
+                  <p class="item-text text">
+                    COVID-19 is mainly spread through the air in drops of liquid that come from the nose and mouth of an infected person.
+
+           The drops are usually too small to see. They scatter when an infected person coughs, sneezes or talks. 
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-1-2.jpg" width="80" height="80" loading="lazy" alt="Air Transmission">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Airborne spread</h3>
+
+                  <p class="item-text text">
+                    In crowded indoor places with poor ventilation, tiny drops containing the virus can sometimes spread over a longer distance.
+
+                  It's much safer to meet people outdoors than indoors, even if you keep more than 2 metres apart indoors.
+
+                Avoid crowded or stuffy places as much as possible.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-1-3.jpg" width="80" height="80" loading="lazy"
+                    alt="Contaminated Objects">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Infected surfaces</h3>
+
+                  <p class="item-text text">
+                   You can also get the virus from infected surfaces. For example, when someone who has the virus sneezes or coughs, droplets with the virus can fall onto surfaces around them.
+
+                 If you touch that surface and then touch your eyes, nose or mouth, you could become infected too.
+
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service has-bg-image" style="background-image: url('./assets/images/service-bg.jpg')" 
+        aria-labelledby="service-label-1" id="symptoms">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="service-label-1">Symptoms of COVID-19</h2>
+
+          <p class="section-text text">
+            People may experience different symptoms from COVID-19. 
+            Symptoms usually begin 5–6 days 
+            after exposure and last 1–14 days.
+          </p>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-1.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">Coughing And Sneezing</h3>
+
+                  <p class="card-text text">
+                    a new, continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-2.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title" >Hot Fever</h3>
+
+                  <p class="card-text text">
+                    fever can start anywhere from 2 days to 2 weeks after exposure to the virus.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-3.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title">Strong Headache</h3>
+
+                  <p class="card-text text">
+                    COVID-19 patients develop bilateral throbbing and tension-type headaches in the frontotemporal 
+                    or periorbital region, distinct from their usual migraine and tension headaches.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-4.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+               
+                  <h3 class="h4 card-title" >Shortness Of Breath</h3>
+
+                  <p class="card-text text">
+                    One of the symptoms of COVID-19 is shortness of breath. In fact, the combination of shortness of breath 
+                    with fever and a dry cough is seen as being highly suggestive of a COVID-19 infection. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-5.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h4 card-title" >Brain fog</h3>
+
+                  <p class="card-text text">
+                    refer to a range of neurological symptoms such as feeling slow, 
+                    difficulty thinking or concentrating, confusion and forgetfulness.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                  <img src="./assets/images/service-1-6.jpg" width="110" height="110" loading="lazy"
+                    alt="service image">
+                </figure>
+
+                <div class="card-content">
+               
+                  <h3 class="h4 card-title"   >Sore Throat</h3>
+
+                  <p class="card-text text">
+                    The hallmark symptom of strep throat is a severe and sudden sore throat, 
+                    which may be accompanied by pain and difficulty swallowing.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="prevention" aria-labelledby="about-label-2">
+        <div class="container">
+
+          <figure class="about-banner order-1">
+            <img src="./assets/images/prevention.avif" width="540" height="540" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="about-subtitle" id="about-label-2">About (2020-nCoV)</p>
+
+            <h2 class="h2 section-title">Prevention Coronavirus</h2>
+
+            <p class="section-text text">
+              The best defense to prevent getting COVID-19 is to get vaccinated. 
+              You should also follow the same steps you would take to prevent getting
+               other viruses, such as the common cold or the flu.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-2-1.jpg" width="80" height="80" loading="lazy"
+                    alt="Wash Your Hands For 20sec">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Wash Your Hands</h3>
+
+                  <p class="item-text text">
+                    Wash your hands for at least 20 seconds — especially before eating and preparing food,
+                     after using the bathroom, after wiping your nose,
+                     and after coming in contact with someone who has a cold.
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-2-2.jpg" width="80" height="80" loading="lazy"
+                    alt="Cover Nose and Mouth When Sneezing">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Cover Nose and Mouth When Sneezing</h3>
+
+                  <p class="item-text text">
+                    Cover your mouth and nose with a tissue when sneezing and coughing or sneeze and cough into your sleeve.
+                     Throw the tissue in the trash. Wash your hands afterward. Never cough or sneeze into your hands!
+                  </p>
+                </div>
+              </li>
+
+              <li class="about-item">
+                <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                  <img src="./assets/images/about-2-3.jpg" width="80" height="80" loading="lazy"
+                    alt="Wear A Mask If Available">
+                </figure>
+
+                <div class="item-content">
+                  <h3 class="h4 item-title">Wear A Mask If Available</h3>
+
+                  <p class="item-text text">
+                    Wear a multilayered cloth facemask that fits snugly on your face and covers your mouth,
+                    nose and chin as recommended by the CDC.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DOCTOR
+      -->
+
+      <section class="section doctor" style="background-image: url('./assets/images/service-bg.jpg')" id="doctors"
+        aria-labelledby="doctor-label">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="doctor-label">Consult Doctors</h2>
+
+          <p class="section-text text">
+            Talk to the doctors before its too late
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="doctor-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 360;">
+                  <img src="./assets/images/andrew.webp" width="350" height="360" loading="lazy"
+                    alt="Dorothy M. Nickell profile" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4 card-title">ANDREW D. BADLEY, M.D.</h3>
+
+                  <p class="card-subtitle">an infectious disease specialist</p>
+
+                  <p class="card-text text">
+                    is an experienced physician-scientist and entrepreneur 
+                    whose research focuses on novel therapeutic development.
+                     
+                  </p>
+
+                  <ul class="card-list">
+
+                    <!-- <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">+502 1234 567 890</span>
+                    </li> -->
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">
+                        Badley.Andrew@mayo.edu</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+     
+
+            <li>
+              <div class="doctor-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 360;">
+                  <img src="./assets/images/patel.jpg" width="350" height="360" loading="lazy"
+                    alt="Courtney A. Smith profile" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4 card-title">ROBIN PATEL, M.D.</h3>
+
+                  <p class="card-subtitle">director of the Infectious disease</p>
+
+                  <p class="card-text text">
+                    Dr. Patel and her team are unraveling the process of biofilm formation and resistance of biofilms to antibiotics. 
+                
+                  </p>
+
+                  <ul class="card-list">
+
+                    <!-- <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">+502 1234 567 890</span>
+                    </li> -->
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">patel.robin@mayo.edu</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 360;">
+                  <img src="./assets/images/James.jpg" width="350" height="360" loading="lazy"
+                    alt="Billie R. Courtney profile" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4 card-title">JAMES R. CERHAN, M.D., PH.D.</h3>
+
+                  <p class="card-subtitle">professor of epidemiology</p>
+
+                  <p class="card-text text">
+                    Dr. Cerhan is a professor of epidemiology in the Mayo Clinic College of Medicine and Science,
+                     and Ralph S. 
+                  </p>
+
+                  <ul class="card-list">
+
+                    <!-- <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">+502 1234 567 890</span>
+                    </li> -->
+
+                    <li class="card-item">
+                      <div class="icon-box">
+                        <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                      </div>
+
+                      <span class="span">Cerhan.James@mayo.edu</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SAFETY
+      -->
+
+      <section class="section safety" aria-labelledby="safety-label">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="safety-label">How to Wash Your Hands</h2>
+
+          <p class="section-text text">
+            Follow these Steps to Wash Your Hands the Right Way
+          </p>
+
+          <ol class="safety-list">
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-1.jpg" width="170" height="170" loading="lazy" alt="Wet Hands"
+                  class="img">
+              </figure>
+
+              <span class="number">1</span>
+
+              <h3 class="h4 item-title">Wet Hands</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-2.jpg" width="170" height="170" loading="lazy" alt="Apply Soap"
+                  class="img">
+              </figure>
+
+              <span class="number">2</span>
+
+              <h3 class="h4 item-title">Apply Soap</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-3.jpg" width="170" height="170" loading="lazy"
+                  alt="Rub Hands Palm to palm" class="img">
+              </figure>
+
+              <span class="number">3</span>
+
+              <h3 class="h4 item-title">Rub Hands Palm to palm</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-4.jpg" width="170" height="170" loading="lazy"
+                  alt="Lather The Back of Both Hands" class="img">
+              </figure>
+
+              <span class="number">4</span>
+
+              <h3 class="h4 item-title">Lather The Back of Both Hands</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-5.jpg" width="170" height="170" loading="lazy"
+                  alt="Scrub Between Your Fingers" class="img">
+              </figure>
+
+              <span class="number">5</span>
+
+              <h3 class="h4 item-title">Scrub Between Your Fingers</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-6.jpg" width="170" height="170" loading="lazy"
+                  alt="Rub The Back of Fingers on The Opposing Palm" class="img">
+              </figure>
+
+              <span class="number">6</span>
+
+              <h3 class="h4 item-title">Rub The Back of Fingers on The Opposing Palm</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-7.jpg" width="170" height="170" loading="lazy" alt="Clean Thumbs"
+                  class="img">
+              </figure>
+
+              <span class="number">7</span>
+
+              <h3 class="h4 item-title">Clean Thumbs</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-8.jpg" width="170" height="170" loading="lazy"
+                  alt="Wash Fingernails And Fingertips" class="img">
+              </figure>
+
+              <span class="number">8</span>
+
+              <h3 class="h4 item-title">Wash Fingernails And Fingertips</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-9.jpg" width="170" height="170" loading="lazy" alt="Rinse Hands"
+                  class="img">
+              </figure>
+
+              <span class="number">9</span>
+
+              <h3 class="h4 item-title">Rinse Hands</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-10.jpg" width="170" height="170" loading="lazy"
+                  alt="Dry with a Single Use Towel" class="img">
+              </figure>
+
+              <span class="number">10</span>
+
+              <h3 class="h4 item-title">Dry with a Single Use Towel</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-11.jpg" width="170" height="170" loading="lazy"
+                  alt="Use The Towel to Rurn off The Foucet" class="img">
+              </figure>
+
+              <span class="number">11</span>
+
+              <h3 class="h4 item-title">Use The Towel to turn off  Faucet</h3>
+            </li>
+
+            <li class="safety-item">
+              <figure class="item-banner img-holder" style="--width: 170; --height: 170;">
+                <img src="./assets/images/safety-12.jpg" width="170" height="170" loading="lazy"
+                  alt="Your Hands Are Clean" class="img">
+              </figure>
+
+              <span class="number">12</span>
+
+              <h3 class="h4 item-title">Your Hands Are Clean</h3>
+            </li>
+
+          </ol>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-labelledby="blog-lable">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="blog-label">COVID-19 Blogs</h2>
+
+          <p class="section-text text">
+           Check out the most popular blog posts about covid-19
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                  <img src="./assets/images/blog11.avif" width="770" height="680" loading="lazy"
+                    alt="#" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="https://www.bannerhealth.com/healthcareblog/better-me/long-covid-questions-answered-about-post-covid-syndrome" target="_blank" class="card-title">
+                      Long COVID: 5 Big Questions Answered About Post-COVID Syndrome
+                    </a>
+                  </h3>
+
+                  <!-- <div class="card-meta">
+
+                    <div class="wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-07-12">July 12, 2022</time>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="meta-text">John Doe</p>
+                    </div>
+
+                  </div> -->
+
+                  <!-- <p class="card-text text">
+                    Pluoresntly customize pranci an plcentered customer service anding strategic amerials Interacvely
+                    cordinate performe
+                  </p> -->
+
+                </div>
+
+                <div class="card-footer">
+                  <a href="https://www.bannerhealth.com/healthcareblog/better-me/long-covid-questions-answered-about-post-covid-syndrome" class="btn-link" target="_blank">Read More</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                  <img src="./assets/images/blog22.avif" width="370" height="280" loading="lazy"
+                    alt="#" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="https://blogs.adb.org/blog/covid-19-variants-how-do-we-stay-safe" target="_blank" class="card-title">
+                      The COVID-19 Variants: How Do We Stay Safe?No one is really safe until everyone is safe.
+                    </a>
+                  </h3>
+<!-- 
+                  <div class="card-meta">
+
+                    <div class="wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-07-12">July 12, 2022</time>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="meta-text">John Doe</p>
+                    </div>
+
+                  </div> -->
+
+                  <!-- <p class="card-text text">
+                    Pluoresntly customize pranci an plcentered customer service anding strategic amerials Interacvely
+                    cordinate performe
+                  </p> -->
+
+                </div>
+
+                <div class="card-footer">
+                  <a href="https://blogs.adb.org/blog/covid-19-variants-how-do-we-stay-safe" target="_blank" class="btn-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                  <img src="./assets/images/blog33.avif" width="370" height="280" loading="lazy"
+                    alt="#" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="https://www.unaids.org/en/resources/covid-blog" target="_blank" class="card-title">
+                      COVID-19: responding to the pandemic.People’s lives must come before profit
+                    </a>
+                  </h3>
+
+                  <!-- <div class="card-meta">
+
+                    <div class="wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-07-12">July 12, 2022</time>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="meta-text">John Doe</p>
+                    </div>
+
+                  </div> -->
+
+                  <!-- <p class="card-text text">
+                    Pluoresntly customize pranci an plcentered customer service anding strategic amerials Interacvely
+                    cordinate performe
+                  </p> -->
+
+                </div>
+
+                <div class="card-footer">
+                  <a href="https://www.unaids.org/en/resources/covid-blog" target="_blank" class="btn-link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <h3 class="h4 footer-list-title">About Covid-19</h3>
+
+          <p class="footer-text text">
+            Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <p class="contact-title">COVID-19 worldometers:</p>
+              <a href="https://www.worldometers.info/coronavirus/" target="_blank"> check COVID-19 Stats</a>
+
+              <!-- <address class="address text">
+                795 Folsom Ave, Suite 600 San Francisco, CA 94107
+              </address> -->
+            </li>
+
+            <!-- <li class="contact-item">
+              <p class="contact-title">Phone:</p>
+
+              <a href="tel:+524623435643" class="text">(+52) 4623 435643</a>
+            </li> -->
+
+            <li class="contact-item">
+              <p class="contact-title">Email:</p>
+
+              <a href="mailto:info@covid-19.com" class="text">info@covid-19.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <h3 class="h4 footer-list-title">Navigate</h3>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="footer-link">WHO</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/about-covid-19.html" target="_blank" class="footer-link">CDC</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus" target="_blank" class="footer-link">Johns hopkins medicine</a>
+          </li>
+
+          <!-- <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Company</a>
+          </li> -->
+
+          <!-- <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Connect</a>
+          </li> -->
+
+        </ul>
+
+        <ul class="footer-list social-list">
+
+          <li>
+            <h3 class="h4 footer-list-title">Social Contact</h3>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+
+            <a href="https://about.meta.com/covid-19-information-center" target="_blank" class="footer-link">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+
+            <a href="https://twitter.com/CDCgov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="footer-link">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+
+            <a href="https://www.instagram.com/uniteagainstcovid19/?hl=en" target="_blank" class="footer-link">Instagram</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+
+            <a href="https://www.youtube.com/playlist?list=PLvrp9iOILTQaJa78zFQ0QgvShQ2HEwHxP" target="_blank" class="footer-link">YouTube</a>
+          </li>
+
+          <!-- <li class="footer-list-item">
+            <ion-icon name="logo-xing" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Xing</a>
+          </li> -->
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <h3 class="h4 footer-list-title">Privacy And Tools</h3>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Advertiser Agreement</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Acceptable Use Policy</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Technology Privacy</a>
+          </li>
+
+          <!-- <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+
+            <a href="#" class="footer-link">Developer Agreement</a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2020 All Rights Reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
